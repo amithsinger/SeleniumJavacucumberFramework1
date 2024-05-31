@@ -10,6 +10,9 @@ import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
+/**
+ * Excel file reader and writer.
+ */
 public class Excel {
 
 	public static String getdata(String path, String sheet, int row, int cell) {
